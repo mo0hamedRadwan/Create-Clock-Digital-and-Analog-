@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Clock</title>
+</head>
+<body>
+   <div class="clock">
+      <div class="analog">
+         <div class="hand hour" id="hour"></div>
+         <div class="hand min" id="min"></div>
+         <div class="hand sec" id="sec"></div>
+         <ul>
+            <li class="num1" style="--number: 1;">1</li>
+            <li class="num2" style="--number: 2;">2</li>
+            <li class="num3" style="--number: 3;">3</li>
+            <li class="num4" style="--number: 4;">4</li>
+            <li class="num5" style="--number: 5;">5</li>
+            <li class="num6" style="--number: 6;">6</li>
+            <li class="num7" style="--number: 7;">7</li>
+            <li class="num8" style="--number: 8;">8</li>
+            <li class="num9" style="--number: 9;">9</li>
+            <li class="num10" style="--number: 10;">10</li>
+            <li class="num11" style="--number: 11;">11</li>
+            <li class="num12" style="--number: 12;">12</li>
+         </ul>
+      </div>
+      <div class="digital">
+         <div class="date">
+            <span id="dateName">Day</span>,
+            <span id="month">Month</span>
+            <span id="dayNum">00</span>,
+            <span id="year">Year</span>
+         </div>
+         <div class="time">
+            <span id="hours">00</span>:
+            <span id="minutes">00</span>:
+            <span id="seconds">00</span>
+            <span id="period">AM</span>
+         </div>
+      </div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
